@@ -28,7 +28,7 @@ setup(name='edition1.twitterportletfix',
         "Programming Language :: Python :: 2.6",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='Plone Twitter portlet ',
+      keywords='Plone Twitter portlet',
       author='Edition1',
       author_email='info@edition1.nl',
       url='https://github.com/edition1/edition1.twitterportletfix',
@@ -41,6 +41,8 @@ setup(name='edition1.twitterportletfix',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'python-twitter>=1.0',
+          'collective.twitterportlet',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
