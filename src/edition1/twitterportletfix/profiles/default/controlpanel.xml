@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel"
+        xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        i18n:domain="edition1.twitterportletfix"
+        purge="False">
+
+  <configlet title="Twitter settings"
+             action_id="TwitterSettings"
+             appId="edition1.twitterportletfix"
+             category="Products"
+             condition_expr=""
+             icon_expr="string:${portal_url}/++resource++edition1.twitterportletfix.icons/twitter.png"
+             url_expr="string:${portal_url}/@@twitter-controlpanel"
+             visible="True"
+             i18n:attributes="title">
+    <permission>edition1.twitterportletfix: Manage Twitter Settings</permission>
+  </configlet>
+
+</object>

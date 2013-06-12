@@ -8,14 +8,17 @@
   <five:registerPackage package="." initialize=".initialize" />
 
   <includeDependencies package="." />
+  <include file="permissions.zcml" />
+  <include package=".browser" />
+
+  <i18n:registerTranslations directory="locales" />
 
   <genericsetup:registerProfile
       name="default"
-      title="edition1.twitterportletfix"
+      title="Twitter portlet API v1.1 fix"
       directory="profiles/default"
-      description="Installs the edition1.twitterportletfix package"
+      description="Quick fix for collective.twitterportlet for Twitter API v1.1"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-  <!-- -*- extra stuff goes here -*- -->
 
 </configure>

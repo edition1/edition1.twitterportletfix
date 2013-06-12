@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <include package="Products.CMFCore" file="permissions.zcml"
+           xmlns:zcml="http://namespaces.zope.org/zcml"
+           zcml:condition="have plone-41" />
+
+  <browser:resourceDirectory
+      name="edition1.twitterportletfix.icons"
+      directory="icons"
+      />
+
+  <browser:page
+      name="twitter-controlpanel"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".controlpanel.TwitterControlPanel"
+      permission="edition1.twitterportletfix.ManageTwitter"
+      />
+
+</configure>

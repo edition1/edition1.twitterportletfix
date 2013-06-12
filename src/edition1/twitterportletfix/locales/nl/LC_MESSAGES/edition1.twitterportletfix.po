@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-06-12 15:15+0000\n"
+"PO-Revision-Date: 2013-06-12 17:15+0200\n"
+"Last-Translator: Mark van Lent <mark.van.lent@edition1.nl>\n"
+"Language-Team: Edition1 <info@edition1.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: nl\n"
+"Language-Name: Nederlands\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: edition1.twitterportletfix\n"
+
+#: ./browser/controlpanel.py:10
+#: ./profiles/default/controlpanel.xml
+msgid "Twitter settings"
+msgstr "Twitter instellingen"
+
+#. Default: "Lets you configure your Twitter settings."
+#: ./browser/controlpanel.py:11
+msgid "help_twitter_setings"
+msgstr "Laat u uw Twitter instellingen configureren."
+
+#. Default: "Access token"
+#: ./interfaces.py:19
+msgid "label_access_token"
+msgstr ""
+
+#. Default: "Access token secret"
+#: ./interfaces.py:23
+msgid "label_access_token_secret"
+msgstr ""
+
+#. Default: "Consumer key"
+#: ./interfaces.py:11
+msgid "label_consumer_key"
+msgstr ""
+
+#. Default: "Consumer secret"
+#: ./interfaces.py:15
+msgid "label_consumer_secret"
+msgstr ""

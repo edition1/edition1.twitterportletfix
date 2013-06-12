@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-06-12 15:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ./browser/controlpanel.py:10
+#: ./profiles/default/controlpanel.xml
+msgid "Twitter settings"
+msgstr ""
+
+#. Default: "Lets you configure your Twitter settings."
+#: ./browser/controlpanel.py:11
+msgid "help_twitter_setings"
+msgstr ""
+
+#. Default: "Access token"
+#: ./interfaces.py:19
+msgid "label_access_token"
+msgstr ""
+
+#. Default: "Access token secret"
+#: ./interfaces.py:23
+msgid "label_access_token_secret"
+msgstr ""
+
+#. Default: "Consumer key"
+#: ./interfaces.py:11
+msgid "label_consumer_key"
+msgstr ""
+
+#. Default: "Consumer secret"
+#: ./interfaces.py:15
+msgid "label_consumer_secret"
+msgstr ""
+
