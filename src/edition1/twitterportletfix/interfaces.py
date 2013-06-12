@@ -4,6 +4,10 @@ from zope import schema
 from edition1.twitterportletfix import MessageFactory as _
 
 
+class ITwitterPortletFixLayer(Interface):
+    """Marker interface that defines a Zope 3 browser layer."""
+
+
 class ITwitterSettings(Interface):
     """Twitter settings."""
 

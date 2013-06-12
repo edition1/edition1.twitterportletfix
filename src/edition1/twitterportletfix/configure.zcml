@@ -10,6 +10,7 @@
   <includeDependencies package="." />
   <include file="permissions.zcml" />
   <include package=".browser" />
+  <include package=".portlets" />
 
   <i18n:registerTranslations directory="locales" />
 

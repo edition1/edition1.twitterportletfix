@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+    <include package="collective.twitterportlet" />
+
+    <plone:portletRenderer
+        portlet="collective.twitterportlet.portlet.ITwitterPortlet"
+        layer="..interfaces.ITwitterPortletFixLayer"
+        class=".portlet.Renderer"
+        />
+
+</configure>
