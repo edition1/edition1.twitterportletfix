@@ -7,7 +7,12 @@ from collective.twitterportlet.portlet import Renderer as OriginalRenderer
 from collective.twitterportlet.portlet import TWITTER_TIMEOUT
 from collective.twitterportlet.portlet import _render_cachekey
 from plone.memoize import ram
+from plone.registry.interfaces import IRegistry
 from urllib2 import URLError
+from zope.component import getUtility
+
+from edition1.twitterportletfix.interfaces import ITwitterSettings
+
 
 logger = logging.getLogger('edition1.twitterportletfix')
 
@@ -34,9 +39,14 @@ class Renderer(OriginalRenderer):
             timeout = DEFAULT_TIMEOUT
             logger.warning('conflict in socket default timeout, resetting '
                            'default timeout to %s' % DEFAULT_TIMEOUT)
+        registry = getUtility(IRegistry)
+        settings = registry.forInterface(ITwitterSettings)
         try:
             socket.setdefaulttimeout(TWITTER_TIMEOUT)
-            twapi = twitter.Api()
+            twapi = twitter.Api(settings.consumer_key,
+                                settings.consumer_secret,
+                                settings.access_token,
+                                settings.access_token_secret)
             try:
                 tweets = twapi.GetUserTimeline(
                     username, count=limit, include_rts=include_retweets)
