@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layers>
+  <layer name="edition1.twitterportletfix"
+         interface="edition1.twitterportletfix.interfaces.ITwitterPortletFixLayer"
+         remove="True" />
+</layers>

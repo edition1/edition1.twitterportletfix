@@ -22,4 +22,12 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Uninstall Twitter portlet API v1.1 fix"
+      directory="profiles/uninstall"
+      description="Uninstalls the quick fix for collective.twitterportlet for Twitter API v1.1"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
 </configure>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<registry>
+  <record interface="edition1.twitterportletfix.interfaces.ITwitterSettings"
+          field="consumer_key"
+          delete="True"/>
+  <record interface="edition1.twitterportletfix.interfaces.ITwitterSettings"
+          field="consumer_secret"
+          delete="True"/>
+  <record interface="edition1.twitterportletfix.interfaces.ITwitterSettings"
+          field="access_token"
+          delete="True"/>
+  <record interface="edition1.twitterportletfix.interfaces.ITwitterSettings"
+          field="access_token_secret"
+          delete="True"/>
+</registry>
