@@ -79,6 +79,6 @@ from different accounts, you are out of luck.
 Disclaimer
 ==========
 
-This package has only been tested on Plone 4.1.6 since that was the
-only version we needed this fix for. However, it probably also works
-on older and newer versions of Plone.
+This package has only been tested on Plone 4.1.6 (Python 2.6) and
+Plone 4.3 (Python 2.7) since those were the only version we needed this
+fix for. However, it probably also works on other versions of Plone.

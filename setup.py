@@ -22,10 +22,12 @@ setup(name='edition1.twitterportletfix',
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Environment :: Web Environment",
-        "Framework :: Plone",
+        "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.3",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='Plone Twitter portlet',
