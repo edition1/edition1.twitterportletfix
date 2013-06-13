@@ -4,8 +4,8 @@
         i18n:domain="edition1.twitterportletfix"
         purge="False">
 
-  <configlet title="Twitter settings"
-             action_id="TwitterSettings"
+  <configlet title="Twitter"
+             action_id="Twitter"
              appId="edition1.twitterportletfix"
              category="Products"
              condition_expr=""
